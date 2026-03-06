@@ -10,7 +10,7 @@ Each row must be covered by exactly one column, minimising total cost.
 - `src/simulated_annealing.py` -- SA with penalty function and compound moves
 - `src/ga_standard.py` -- standard BGA with tournament selection and elitism
 - `src/improved_ga.py` -- improved BGA with stochastic ranking, pseudo-random initialisation, and heuristic improvement operator
-- `src/test.py` -- runs 30 seeds per algorithm and saves results to CSV
+- `src/test.py` -- runs 30 seeds per algorithm and prints summary statistics
 - `data/` -- OR-Library instances (sppnw41, sppnw42, sppnw43)
 
 ## How to Run
